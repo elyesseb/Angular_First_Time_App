@@ -1,0 +1,12 @@
+<div class="container_user" *ngFor="let user of users">
+    <div class="container_img">
+        <img class="user_img" src="{{user.picture.large}}">
+    </div>
+    <div class="container_name">
+        <h4>
+            <span class="title_name">{{user.name.title}}</span>
+            <span class="first_name">{{user.name.first}}</span>
+            <span class="last_name">{{user.name.last}}</span>
+        </h4>
+    </div>
+</div>
